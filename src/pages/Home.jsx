@@ -89,7 +89,7 @@ function Home() {
             alert('Msg Sent')
             const responseData = await res.json()
             console.log(responseData.name);
-            setLink(`localhost:5173/${responseData.name}`)
+            setLink(`https://gift-card-mauve.vercel.app/${responseData.name}`)
             setTitle('')
             setAuthor('')
             setMessage('')
