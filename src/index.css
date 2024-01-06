@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+
+
+.text-primary{
+    color: #427D9D !important;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+
+input, textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+input#title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input#tanggal{
+    color: grey;
+}
+
+input::placeholder{
+    font-weight: 100;
+
+}
+
+
+
+input[type='color']{
+    height: 50px;
+    cursor: pointer;
+}
+
+input:disabled{
+    background-color: #427D9D !important;
+}
+
+.btn-copy{
+    cursor: pointer;
+    right:10px;
+    top: 30px;
+    z-index: 2;
+}
+
+
+.text-roboto-bold{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card{
+    color: rgb(46, 46, 46);
+    border: 0;
+}
+
+.card{
+    background: none;
+}
+
+.card h1{
+    font-size: 35px;
+}
+
+.placeholder-image{
+    height: 300px;
+}
+
+.placeholder{
+    height: 100%;
+    width: 100%;
+}
+
+.card-theme div{
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.card-theme div.selected{
+    transition: all .5;
+    border: 2px solid #868686;
+    background-color: #427D9D;
+}
